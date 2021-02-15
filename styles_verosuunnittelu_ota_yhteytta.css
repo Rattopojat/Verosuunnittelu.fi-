@@ -1,46 +1,116 @@
 .page {
 	height: auto;
 	width: auto;
-	background-color: blue;
+	background-color: 4a6274;
 }
+
+body {
+	background-color: 4a6274;
+}
+
 .navigation {
+	
 	height: 10%;
 	width: auto;
-	background-color: lime;
+	background-color: 4a6274;
 	position: relative;
 	
+}
+.navigation ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4a6274;
+}
+
+.navigation li {
+  float: left;
+  
+}
+.navigation li a {
+	  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navigation li a:hover{
+	background-color: #79Aeb2;
+}
+.footer ul {
+	list-style-type: none;
+	text-align: center;
+}
+.footer li {
+	display: inline;
+	padding: 40px;
+}
+
+.container p {
+	position:relative;
+	left: 10px;
+}
+
+form {
+	position:relative;
+	left: 10px;
+	
+
 }
 ul {
 	list-style-type: none;
 }
 
-li {
-  display: inline;
-}
+
 .header {
 	height: 20%;
 	width: auto;
-	background-color: lightblue;
+	background-color: 79Aeb2;
 	position: relative;
 	text-align:center;
 }
-.NavBlock {
-	height: 27%;
-	width: auto;
-	background-color: red;
-	position: relative;
+p {
+	color: white;
+}
+body {
+	background-color: 4a6274;
+}
+h1 {
+	color: white;
+}
+h2 {
+	color: white;
+}
+h3 {
+	color: white;
+}
+
+li {
+	color: white;
+}
+
+a {
+	color:white;
+}
+form {
+	color:white;
+}
+.footer a {
+	font-size: 13;
+	color: white;
 }
 .container {
 	height: 30%;
 	width: auto;
-	background-color: pink;
+	background-color: 79Aeb2;
 	position: relative;
 }
 .block {
     display: inline-block;
     width: 200px;
     height: 220px;
-    background-color: lightgray;
+    background-color: 79Aeb2;
 }
 .roles  {
     text-align: center;
@@ -50,16 +120,43 @@ li {
  width: 100px;
  height: 100px;
 }
+a:link {
+  text-decoration: none;
+  color:white;
+}
 
+a:visited {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a:active {
+  text-decoration: underline;
+  color:white;
+}
 .OtaYhteytta {
 	height: 7%;
 	width: auto;
-	background-color: green;
+	background-color: 79Aeb2;
 	position: relative;
 }
 .footer {
-	height: 5%;
+	height: auto;
 	width: auto;
-	background-color: yellow;
+	background-color: 4a6274;
 	position: relative;
+}
+
+.footer p {
+	position: relative;
+	left: 10px;
+	font-size: 13;
+}
+.footer a {
+	font-size: 13;
 }
