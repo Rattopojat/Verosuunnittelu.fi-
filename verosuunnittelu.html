@@ -5,6 +5,7 @@
 <head>
 <title>Verosuunnittelu.fi</title>
 <link rel="stylesheet" href="styles_verosuunnittelu_frontpage.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -22,20 +23,20 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div class="page">
 <! tämä on koko sivun koon määrittävä div>
-	<div class="navigation">
+<div class="topnav" id="myTopnav">
 	<! tänne tulee sivun yläpalkissa oleva staattinen navigointi>
-	<nav>
-		<ul>
-			<li><a href="verosuunnittelu.html">Kotisivu</a></li>
-    		<li><a href="verosuunnitelu_palvelumme.html">Palvelumme</a></li>
-    		<li><a href="verusuunnittelu_info.html">Info</a></li>
-    		<li><a href="verosuunnittelu_ota_yhteytta.html">Ota Yhteyttä</a></li>
-			</ul>
-	</nav>
+	<a href="verosuunnittelu.html" class="active">Kotisivu</a>
+    		<a href="verosuunnitelu_palvelumme.html">Palvelumme</a>
+    		<a href="verusuunnittelu_info.html">Info</a>
+    		<a href="verosuunnittelu_ota_yhteytta.html">Ota Yhteyttä</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			  </a>
 	</div>
 	<div class="header">
 	<h1>Verosuunnittelu.fi</h1>
@@ -100,5 +101,15 @@
 </footer>
 	</div>
 </div>
+<script>
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+	</script>
 </body>
 </html>

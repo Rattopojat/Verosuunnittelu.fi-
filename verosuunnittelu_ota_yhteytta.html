@@ -2,6 +2,7 @@
 <head>
 <title>Verosuunnittelu.fi OTA YHTEYTTÄ</title>
 <link rel="stylesheet" href="styles_verosuunnittelu_ota_yhteytta.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="icon" type="image/png" href="henkilokunta_antti">
 <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -20,17 +21,20 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div class="page">
-<div class="navigation">
-  <ul id="navi">
-    <li><a href="verosuunnittelu.html">Kotisivu</a></li>
-    <li><a href="verosuunnitelu_palvelumme.html">Palvelumme</a></li>
-    <li><a href="verusuunnittelu_info.html">Info</a></li>
-    <li><a href="verosuunnittelu_ota_yhteytta.html">Ota Yhteyttä</a></li>
-    </ul>
-</div>
+  <div class="topnav" id="myTopnav">
+        <a href="verosuunnittelu.html" class="active">Kotisivu</a>
+          <a href="verosuunnitelu_palvelumme.html">Palvelumme</a>
+          <a href="verusuunnittelu_info.html">Info</a>
+          <a href="verosuunnittelu_ota_yhteytta.html">Ota Yhteyttä</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          </a>
+    
+  </div>
 <div class="header">
 <h1>Ota yhteyttä</h1>
 <p>Onko sinulla kysyttävää? Me autamme!<p>
@@ -109,5 +113,15 @@ Huomioithan, että asiakaspalvelun tyypillinen vastausaika on 1 työpäivä. Kii
 </footer>
 </div>
 </div>
+<script>
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+	</script>
 </body>
 </html>
