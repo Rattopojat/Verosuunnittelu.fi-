@@ -8,6 +8,32 @@ body {
 	background-color: 4a6274;
 }
 
+
+.footer ul {
+	list-style-type: none;
+	text-align: center;
+}
+.footer li {
+	display: inline;
+	padding: 40px;
+}
+
+.container p {
+	position:relative;
+	left: 10px;
+}
+
+form {
+	position:relative;
+	left: 10px;
+	
+
+}
+ul {
+	list-style-type: none;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -65,38 +91,6 @@ body {
       text-align: left;
     }
   } 
-.footer ul {
-	list-style-type: none;
-	text-align: center;
-}
-.footer li {
-	display: inline;
-	padding: 40px;
-}
-
-.container p {
-	position:relative;
-	left: 10px;
-}
-
-form {
-	position:relative;
-	left: 10px;
-	
-
-}
-ul {
-	list-style-type: none;
-}
-
-
-.header {
-	height: 20%;
-	width: auto;
-	background-color: 79Aeb2;
-	position: relative;
-	text-align:center;
-}
 p {
 	color: white;
 }
